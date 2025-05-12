@@ -1,0 +1,27 @@
+export const Photolink = [
+    "https://i.ibb.co/bBsr0tH/DSC07648.png",
+    "https://i.ibb.co/hWt5Ssc/DSC07653.png",
+    "https://i.ibb.co/dDN5B2s/DSC07656.png",
+    "https://i.ibb.co/yQ8HcsZ/DSC07600.png",
+    "https://i.ibb.co/QJM0TMP/DSC07607.png",
+    "https://i.ibb.co/HCjwQzC/DSC07612.png",
+    "https://i.ibb.co/y03MQVW/DSC07627.png",
+    "https://i.ibb.co/2Ff35RM/DSC07632.png",
+    "https://i.ibb.co/YLXWMwG/DSC07633.png",
+    "https://i.ibb.co/F4gsp42/DSC07639.png",
+    "https://i.ibb.co/GMTnJZj/DSC07679.png",
+    "https://i.ibb.co/6J7CCBd/DSC07714.png",
+    "https://i.ibb.co/XDQ3xZ3/DSC07719.png",
+    "https://i.ibb.co/Jq2HMP0/DSC07724.png",
+    "https://i.ibb.co/R9CxSjw/DSC07733.png",
+    "https://i.ibb.co/NW7C2X7/DSC07737.png",
+    "https://i.ibb.co/Xk1X75N/DSC04626.png",
+    "https://i.ibb.co/GkQXfb7/DSC04633.png",
+    "https://i.ibb.co/J5T2tWG/DSC04655.png",
+    "https://i.ibb.co/9rYqr4w/DSC04663.png",
+    "https://i.ibb.co/9bn63ZM/DSC04695.png",
+    "https://i.ibb.co/mRrXVgx/DSC04713.png",
+    "https://i.ibb.co/Jr49Jdf/DSC04736.png",
+    "https://i.ibb.co/B4YXFv6/DSC04747.png"
+
+]

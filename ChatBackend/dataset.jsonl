@@ -1,0 +1,199 @@
+[
+    {
+      "input": "What is Cannibal.co?",
+      "output": "Cannibal.co is a major Sri Lankan clothing brand offering high-quality streetwear and fashion apparel."
+    },
+    {
+      "input": "How can I sign up?",
+      "output": "Click the 'Sign Up' button on the top-right corner of our homepage and fill in your details."
+    },
+    {
+      "input": "What services do you provide?",
+      "output": "We provide a wide range of fashion clothing, accessories, seasonal collections, and exclusive drops."
+    },
+    {
+      "input": "Where is your company based?",
+      "output": "Our headquarters are located in Colombo, Sri Lanka."
+    },
+    {
+      "input": "How can I contact customer support?",
+      "output": "You can contact our support team via email at support@cannibal.co or through our contact form on the website."
+    },
+    {
+      "input": "What products do you sell?",
+      "output": "We sell streetwear clothing including t-shirts, hoodies, joggers, jackets, caps, and accessories."
+    },
+    {
+      "input": "Do you have a physical store?",
+      "output": "Currently, we operate online only. Stay tuned for pop-up events or retail announcements."
+    },
+    {
+      "input": "Do you ship internationally?",
+      "output": "Yes, we offer international shipping to most countries."
+    },
+    {
+      "input": "How long does shipping take within Sri Lanka?",
+      "output": "Local delivery typically takes 2–5 business days."
+    },
+    {
+      "input": "How long does international shipping take?",
+      "output": "International orders usually take 7–21 business days, depending on the destination."
+    },
+    {
+      "input": "Can I return a product?",
+      "output": "Yes, we accept returns within 14 days of delivery. The product must be unused and in original condition."
+    },
+    {
+      "input": "How can I track my order?",
+      "output": "Once shipped, you’ll receive a tracking number via email to monitor your delivery status."
+    },
+    {
+      "input": "What payment methods do you accept?",
+      "output": "We accept credit/debit cards, bank transfers, and selected digital wallets."
+    },
+    {
+      "input": "Is it safe to shop on Cannibal.co?",
+      "output": "Yes, our website is secured with SSL encryption and PCI-compliant payment processing."
+    },
+    {
+      "input": "How can I cancel my order?",
+      "output": "You can cancel your order within 2 hours of placing it by contacting support@cannibal.co."
+    },
+    {
+      "input": "Do you offer custom designs?",
+      "output": "Currently, we do not offer custom orders, but we regularly release limited-edition collections."
+    },
+    {
+      "input": "What sizes do you offer?",
+      "output": "Our sizes range from XS to XXL. Check our Size Guide for exact measurements."
+    },
+    {
+      "input": "Where can I find the size chart?",
+      "output": "You can find our Size Guide linked on each product page."
+    },
+    {
+      "input": "Do you have discounts or sales?",
+      "output": "Yes, we run seasonal sales and exclusive discounts for our newsletter subscribers."
+    },
+    {
+      "input": "Can I buy Cannibal gift cards?",
+      "output": "Yes, digital gift cards are available in various amounts on our website."
+    },
+    {
+      "input": "How do I redeem a gift card?",
+      "output": "Enter your gift card code at checkout to apply the balance to your order."
+    },
+    {
+      "input": "Are your clothes made in Sri Lanka?",
+      "output": "Yes, our products are designed and manufactured in Sri Lanka, supporting local craftsmanship."
+    },
+    {
+      "input": "What is your brand style?",
+      "output": "Cannibal.co focuses on urban, edgy, and modern streetwear inspired by youth culture."
+    },
+    {
+      "input": "Can I become a brand ambassador?",
+      "output": "We're always looking for passionate people. Send your portfolio or proposal to collab@cannibal.co."
+    },
+    {
+      "input": "How do I become a reseller?",
+      "output": "Send us a business inquiry at business@cannibal.co with your details and proposal."
+    },
+    {
+      "input": "Do you collaborate with influencers?",
+      "output": "Yes, influencer collaborations are welcome. Reach out via collab@cannibal.co."
+    },
+    {
+      "input": "What is your return policy?",
+      "output": "Items can be returned within 14 days in original, unused condition. Refunds are issued once the item is received."
+    },
+    {
+      "input": "Can I exchange my product for another size?",
+      "output": "Yes, exchanges are allowed within 14 days based on size availability."
+    },
+    {
+      "input": "Do you restock sold-out items?",
+      "output": "Some items may restock. Sign up for restock notifications on the product page."
+    },
+    {
+      "input": "Where can I follow Cannibal.co on social media?",
+      "output": "Follow us on Instagram, Facebook, and TikTok @cannibal.co for updates and drops."
+    },
+    {
+      "input": "How do I subscribe to the newsletter?",
+      "output": "Scroll to the bottom of our homepage and enter your email to join our newsletter."
+    },
+    {
+      "input": "Do you offer student discounts?",
+      "output": "We currently do not offer a student discount, but keep an eye out for seasonal promotions."
+    },
+    {
+      "input": "How often do you release new collections?",
+      "output": "We drop new collections every quarter, along with occasional limited edition drops."
+    },
+    {
+      "input": "Are your materials sustainable?",
+      "output": "We’re committed to sustainability and are gradually introducing eco-friendly fabrics and packaging."
+    },
+    {
+      "input": "What’s the meaning behind the name 'Cannibal'?",
+      "output": "The name 'Cannibal' represents boldness, rebellion, and standing out from the norm in fashion."
+    },
+    {
+      "input": "Do you offer clothing for women?",
+      "output": "Yes, we offer unisex and gender-specific styles for all."
+    },
+    {
+      "input": "Do you offer clothing for kids?",
+      "output": "Currently, we do not offer a kids collection, but it may launch in the future."
+    },
+    {
+      "input": "How do I care for Cannibal clothing?",
+      "output": "Each item comes with a care label. We recommend cold washes and air drying for longevity."
+    },
+    {
+      "input": "Do you offer same-day delivery?",
+      "output": "Same-day delivery is not available at the moment."
+    },
+    {
+      "input": "Can I change my shipping address after placing an order?",
+      "output": "Yes, if the order hasn't been shipped yet. Contact support immediately to request changes."
+    },
+    {
+      "input": "What do I do if I received the wrong item?",
+      "output": "We're sorry! Email support@cannibal.co with a photo and order ID, and we’ll fix it ASAP."
+    },
+    {
+      "input": "Do you have a loyalty program?",
+      "output": "We are working on a loyalty program. Stay tuned for updates!"
+    },
+    {
+      "input": "Is Cannibal.co a local or international brand?",
+      "output": "Cannibal.co is a proudly local Sri Lankan brand with international reach."
+    },
+    {
+      "input": "Do you offer bulk or wholesale orders?",
+      "output": "Yes, for bulk orders contact wholesale@cannibal.co with your request."
+    },
+    {
+      "input": "Can I pre-order upcoming products?",
+      "output": "Pre-orders are available on selected drops. Check the product page for availability."
+    },
+    {
+      "input": "Do you offer seasonal collections?",
+      "output": "Yes, we launch seasonal collections throughout the year."
+    },
+    {
+      "input": "Can I collaborate as an artist or designer?",
+      "output": "Absolutely! Email your portfolio to design@cannibal.co for collaboration opportunities."
+    },
+    {
+      "input": "Where can I find Cannibal.co reviews?",
+      "output": "Customer reviews are available on each product page."
+    },
+    {
+      "input": "What’s your mission as a brand?",
+      "output": "Our mission is to empower individuality through bold fashion and quality craftsmanship."
+    }
+  ]
+  

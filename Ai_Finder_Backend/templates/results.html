@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Results</title>
+</head>
+<body>
+    <h1>Predicted Category: {{ predicted_class }}</h1>
+    <h2>Similar Images:</h2>
+    <ul>
+        {% for img in similar_images %}
+        <li><img src="{{ img }}" alt="Similar Image" style="width:200px;height:auto;"></li>
+        {% endfor %}
+    </ul>
+    <a href="/upload">Upload another image</a>
+</body>
+</html>

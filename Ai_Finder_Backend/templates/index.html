@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clothing Category Predictor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background-color: #f4f4f4;
+    }
+    h2 {
+      color: #333;
+    }
+    #preview {
+      max-width: 300px;
+      margin-top: 20px;
+    }
+    #result {
+      margin-top: 20px;
+    }
+    .similar-images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .similar-images img {
+      width: 120px;
+      height: auto;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Upload Clothing Image</h2>
+  <input type="file" id="imageInput" accept="image/*">
+  <button onclick="uploadImage()">Predict</button>
+  
+  <img id="preview" src="" alt="Preview will appear here" />
+
+  <div id="result"></div>
+
+  <script>
+    const imageInput = document.getElementById('imageInput');
+    const preview = document.getElementById('preview');
+    const resultDiv = document.getElementById('result');
+
+    imageInput.addEventListener('change', () => {
+      const file = imageInput.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = () => {
+          preview.src = reader.result;
+        };
+        reader.readAsDataURL(file);
+      }
+    });
+
+    async function uploadImage() {
+      const file = imageInput.files[0];
+      if (!file) {
+        alert("Please select an image first.");
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append('file', file);
+
+      resultDiv.innerHTML = "⏳ Predicting...";
+
+      try {
+        const res = await fetch('http://127.0.0.1:5000/upload', {
+          method: 'POST',
+          body: formData
+        });
+
+        const data = await res.json();
+
+        if (res.ok) {
+          resultDiv.innerHTML = `<h3>Predicted Category: ${data.category}</h3>`;
+          if (data.similar_images.length > 0) {
+            const imagesHTML = data.similar_images.map(url => `<img src="${url}" alt="Similar">`).join('');
+            resultDiv.innerHTML += `<div class="similar-images">${imagesHTML}</div>`;
+          }
+        } else {
+          resultDiv.innerHTML = `<span style="color:red;">❌ ${data.error}</span>`;
+        }
+      } catch (err) {
+        resultDiv.innerHTML = `<span style="color:red;">❌ Error: ${err.message}</span>`;
+      }
+    }
+  </script>
+
+</body>
+</html>

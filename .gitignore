@@ -1,0 +1,20 @@
+dataset/
+
+
+Frontend/node_modules/
+Backend/node_modules/
+
+
+*.h5
+*.hdf5
+*.ckpt
+
+
+# Plot images
+*.png
+*.jpg
+*.webp
+*.avif
+*.jpeg
+.env
+
