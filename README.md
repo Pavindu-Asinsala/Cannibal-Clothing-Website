@@ -32,10 +32,10 @@ Cannibal.Co is a modern, AI-enhanced e-commerce platform designed for an edgy cl
 
 ## 👥 Contributors
 
-- 🎯 **Sasindu Diluranga** – Team Lead
-- 🧠 **Pavindu Asinsa** –
-- 🛠️ **Udana Rajanaeka** –
-- 🎨 **Venuja Bimsara** –
+- 🎯 **Sasindu Diluranga** 
+- 🧠 **Pavindu Asinsala** 
+- 🛠️ **Udana Rajanayake** 
+- 🎨 **Venuja Bimsara** 
 
 ---
 
